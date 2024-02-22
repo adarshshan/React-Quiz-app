@@ -1,11 +1,3 @@
-import React from 'react'
 
-function utils() {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default utils
+export const shuffleArray = (array: any[]) =>
+  [...array].sort(() => Math.random() - 0.5);
